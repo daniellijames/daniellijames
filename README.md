@@ -25,4 +25,4 @@
 <br>
 
 [![](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)]([https://linkedin.com/in/daniellijames/](https://linkedin.com/in/daniellijames/))
-[![](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:daniel.james02@gmail.com)
+[![](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=outlook)](mailto:daniel@arijentek.com)
