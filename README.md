@@ -1,35 +1,24 @@
-<div align="center">
+### `daniellijames.py`
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=2F80ED&center=true&vCenter=true&width=435&lines=User%3A+Daniel+Li+James;Role%3A+COO+%40+Arijentek;Status%3A+Online)](https://git.io/typing-svg)
+```python
+class DanielJames:
+    def __init__(self):
+        self.name = "Daniel Li James"
+        self.role = "COO @ Arijentek Solution"
+        self.location = "India (IST)"
+        self.languages = ["English (C1+)", "Malayalam", "Tamil", "Hindi", "Kannada"]
 
-<samp>
-"Turning 'Have you tried restarting?' into enterprise strategy."
-</samp>
+    def get_stack(self):
+        return {
+            "networking": ["Cisco Packet Tracer", "Active Directory", "VPN Config", "Firewalls"],
+            "security": ["IoT Systems", "Facial Recognition", "Access Protocols"],
+            "audio_eng": ["Signal Processing", "Networked Audio", "DAW Integration"],
+            "enterprise": ["Odoo ERP", "Azure", "IT Operations"]
+        }
 
-<br><br>
+    def current_status(self):
+        return "Building infrastructure & scaling operations."
 
-[![](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/daniellijames/)
-[![](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail)](mailto:daniel.james02@gmail.com)
-
-</div>
-
-<br>
-
-## ⚙️ System Configuration: `daniellijames.yaml`
-
-```yaml
-user_profile:
-  name: Daniel Li James
-  role: Chief Operating Officer
-  company: Arijentek Solution
-  location: India (IST)
-  
-core_modules:
-  - Networking: ["Cisco", "Active Directory", "Firewall Mgmt", "VPN"]
-  - Operations: ["Odoo ERP", "Azure", "Project Management"]
-  - Security: ["IoT Systems", "Access Protocols", "Facial Recognition"]
-  - Audio: ["Signal Processing", "Networked Audio", "DAW"]
-
-current_process:
-  - Scaling operations at Arijentek Solution
-  - Researching AI Agent Development
+if __name__ == "__main__":
+    me = DanielJames()
+    print(me.current_status())
